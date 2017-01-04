@@ -1577,7 +1577,7 @@
 		line-height: 1.75em;
 		color: #fff;
 	}
-	
+
 	h1, h2, h4, h5, h6 {
 		font-weight: 300;
 		color: #2DAC62;
@@ -1711,16 +1711,16 @@
 			display: block;
 			width: 100%;
 		}
-		
 
-		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+
+		.image.avatar100 {
+			width: 100px;
+			height: 100px;
 		}
 
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+			.image.avatar100 img {
+				width: 100px;
+				height: 100px;
 			}
 
 		.image.fit {
@@ -2049,7 +2049,7 @@
 		}
 
 		#logo .image {
-			position: absolute;
+			position: relative;;
 			left: 0;
 			top: 0;
 		}
@@ -2261,8 +2261,8 @@
 			}
 
 			#logo .image {
-				position: relative;
-				margin: 0 0 0.5em 0;
+				position: inherit;;
+				margin: 0 0 0 0;
 			}
 
 			#nav ul li a {
